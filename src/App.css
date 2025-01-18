@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  background-color: #f4f4f4;
+  padding: 10px 20px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+}
+
+.navbar a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.banner {
+  text-align: center;
+  background-color: #ffe4b3;
+  padding: 20px;
+}
+
+.section-title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.categories {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 20px;
+  margin: 20px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.category {
+  text-align: center;
+  width: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.category img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.course-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.technologies {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.technologies img {
+  width: 60px;
+  height: 60px;
 }

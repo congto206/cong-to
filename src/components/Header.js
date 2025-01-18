@@ -1,9 +1,7 @@
-import React from 'react';
-
 function Header() {
   return (
-    <header>
-      <h1>Welcome to the Information Technology Program</h1>
+    <header style={{ backgroundColor: "#f8f9fa", padding: "1rem", textAlign: "center" }}>
+      <h1>FPT Aptech</h1>
     </header>
   );
 }
